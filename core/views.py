@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("<h1>Welcome to Social Media With Django</h1>")
+    return render(request, 'index.html')
